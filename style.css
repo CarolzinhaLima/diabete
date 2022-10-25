@@ -7,7 +7,7 @@
 :root{
     --azul : #004A8D;
     --laranja-claro: #fdc180;
-    --branco: white;
+    --branco: #faf6f6;
 }
 
 body{
@@ -23,11 +23,13 @@ ul{
     list-style-type: none;
 }
 li{
-    margin-top: 16px;
+    align-items: center;
+    padding: 10%;
+    border: 1px solid #fff;
 }
 /*header*/
 header{
-    padding: 24px;
+    padding: 5px;
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -40,18 +42,20 @@ header img, .logo{
     width: 70px;
 }
 span{
+    margin: 0 3%;
     color: var(--branco)
 }
 header nav {
     display: none;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     position: absolute;
+    z-index: 9;
     width: 35%;
-    margin: 0;
-    height: 70vh;
+    height: 100vh;
+    top: 0;
     right: 0;
-    padding: 50% 0 0 0;
+    padding: 16% 0;
     text-align: right;
     color: var(--branco);
     background-color: var(--azul);
@@ -103,6 +107,9 @@ main .topico{
     text-align: center;
     margin: 5%;
 }
+.topico p{
+    line-height: 25px;
+}
 main .topico h2, p{
     text-align: center;
     margin: 5%;
@@ -113,11 +120,16 @@ main img{
 
 /*footer*/
 footer{
+    color: var(--branco);
     background-color: var(--azul);
+}
+footer p{
+    margin: 0;
 }
 
 /*medias*/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px)
+{
     #botao_menu{
         display: none;
     }
