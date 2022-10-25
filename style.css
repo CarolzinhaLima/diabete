@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+:root{
+    --azul : #004A8D;
+    --laranja-claro: #fdc180;
+    --branco: white;
+}
+
+body{
+    background-color: var(--branco);
+}
+
+a{
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 1rem;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 16px;
+}
+/*header*/
+header{
+    padding: 24px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: var(--azul);
+}
+header img, .logo{
+    width: 10%;
+}
+.logo-menu{
+    width: 70px;
+}
+span{
+    color: var(--branco)
+}
+header nav {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 35%;
+    margin: 0;
+    height: 70vh;
+    right: 0;
+    padding: 50% 0 0 0;
+    text-align: right;
+    color: var(--branco);
+    background-color: var(--azul);
+
+}
+#botao_fechar{
+    margin-top: 36px;
+}
+.md-48{
+    font-size: 48px;
+}
+
+/*banner*/
+main #banner{
+    margin:5% 2%;
+    text-align: center;
+}
+main #banner img{
+    width: 90%;
+    border-radius: 30px;
+    box-shadow: 4px 4px 6px  black;
+}
+
+/*carrossel*/
+#carrossel{
+    margin: 5% 0;
+    justify-content: center;
+    display: flex;
+}
+.carrossel{
+    box-shadow: 4px 4px 6px black;
+    overflow: hidden;
+    width: 270px;
+    height: 270px;
+}
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+.container img{
+    object-fit: cover;
+    width: 270px;
+    height: 270px;
+}
+
+/*topicos*/
+main .topico{
+    text-align: center;
+    margin: 5%
+}
+main img{
+    margin: 5% 0;
+}
+
+/*footer*/
+footer{
+    background-color: var(--azul);
+}
+
+/*medias*/
+@media screen and (min-width: 1024px){
+    #botao_menu{
+        display: none;
+    }
+
+    nav{
+        display: block;
+        position: relative;
+        z-index: 0;
+        width: auto;
+        padding: 0;
+        text-align: right;
+    }
+
+    li{
+        display: inline;
+        margin-left: 24px;
+    }
+
+    #botao_fechar{
+        display: none;
+    }
+    
+}
+
