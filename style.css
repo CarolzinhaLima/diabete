@@ -101,7 +101,11 @@ main #banner img{
 /*topicos*/
 main .topico{
     text-align: center;
-    margin: 5%
+    margin: 5%;
+}
+main .topico h2, p{
+    text-align: center;
+    margin: 5%;
 }
 main img{
     margin: 5% 0;
