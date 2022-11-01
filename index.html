@@ -15,11 +15,10 @@
             <span id="botao_menu"class="material-symbols-outlined md-48" onclick="controlarMenu()">menu</span>
         <nav id="menu_navegacao">
             <ul>
-                <li><a href="">Definição</a></li>
-                <li><a href="">Orientações</a></li>
-                <li><a href="">Sintomas</a></li>
-                <li><a href="">Manual</a></li>
-                <li><button id="mudar">Modo escuro</button></li>
+                <li><a href="#definicoes">Definição</a></li>
+                <li><a href="#orientacoesG">Orientações</a></li>
+                <li><a href="#nutricao">Nutricionais</a></li>
+                <li><a href="#manual">Insulina</a></li>
                 <li><span id="botao_fechar" class="material-symbols-outlined" onclick="controlarMenu()">close
                 </span></li>
             </ul>
@@ -29,15 +28,27 @@
         <section id="banner">
             <h1>Dia 14 de Novembro dia Mundial de Controle e Prevenção do Diabetes</h1>
             <img src="img/banner.jpg" alt="">
-            
         </section>
 
-        <section class="topico">
-            <h2>Definição de Diabete</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <section class="topico" id="definicoes">
+            <div id="definicao">
+            <div class="definicaoP">
+                <h2>Definição de Diabete</h2>
+                    <p>
+                        Diabetes Mellitus é uma síndrome causada por defeitos na produção de insulina. <br>
+                        DM1 – ausência total de insulina nopâncreas e depende de umamedicação. <br>
+                        DM2 – produção insuficiente de insulina, ou resistência a ação da insulina. <br>
+                        O Diabetes tipo 1, que é mas raro, é resultado de um defeito do sistema imunológico,
+                        ocasionado por herança genética, em conjunto com fatores ambientais.
+                        Quando falamos em diabetes, isso se refere mais especificamente ao tipo 2 da doença,
+                        considerado o mais comum (90% dos casos).
+                    </p>
+            </div>
+            <img src="img/definicao.png" alt="">
+            </div>
         </section>
 
-        <!--carrossel-->
+        <!--carrossel
         <section id="carrossel">
             <div class="carrossel">
                 <div class="container" id="img">
@@ -46,31 +57,94 @@
                 </div>
             </div>
         </section>
+    -->
 
-        <section class="topico">
-            <h2>Orientações para o diabético</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <section class="topico" id="orientacoesG">
+            <div id="orientacoes">
+                <div id="orientacaoD">
+                    <h2 class="title">Orientações para o diabético</h2>
+                    <div class="meio">
+                    <p>
+                    A recomendação diária para diabéticos segundo American
+                    Dietetic Association (2003) sugere:</p>
+                    <p>
+                        <b>
+                            40 à 60% de carboidratos (não ingerir quantidades maiores que
+                            130g), 20 à 30% de gorduras, 15 à 20% de proteínas
+                            20 à 30% de fibras, 7% de gorduras saturadas,
+                            8% de gorduras polinsaturadas, 1 à 3% de ômega-3, 5 à 8% de ômega-6,
+                            Até 200mg de colesterol.
+                        </b>
+                    </p>
+                    <p>Ter hábitos alimentares que mantenham os níveis de
+                    glicose sanguínea estáveis.
+                    </p>
+                </div>
+                </div>
+                <div id="orientacaoPr">
+                    <div class="meio">
+                    <h2>Orientações para pré-diabético</h2>
+                    <p>
+                        E a melhor forma de preveni-la é:
+                        priorizar a prática de atividades físicas, juntamente com uma
+                        alimentação saudável.
+                        Uma caminhada de 30 minutos todos os dias ajuda a prevenir o
+                        diabetes, além de melhorar o bem-estar e qualidade de vida
+                        Prática de atividade física
+                        Evitar alimentos ultraprocessados
+                        Consumir gorduras boas
+                        consumir fibras e proteína</p>
+                    </div>
+                </div>  
+            </div>
         </section>
-        
-        <section class="topico">
-            <h2>Orientações para pré-diabético</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-            <img src="img/orientação.png" alt="" >
+        <section class="topico" id="nutricao">
+            <div id="definicao">
+                <div id="definicaoP">  
+                <h2>Orientações nutricionais</h2>
+                <p> Consumir diariamente alimentos ricos em fibras, vitaminas e
+                    sais minerais, como verduras, legumes e frutas. Uma
+                    alimentação equilibrada em fibras é uma das principais
+                    recomendações
+                        Dar preferência a fontes de proteínas magras, como aves,
+                    peixes, carnes vermelhas com pouca gordura e proteínas
+                    vegetais
+                        Todos diabéticos devem ser alertados sobre a ingestão de
+                    carboidratos refinados e açúcares devendo substituir por alimentos
+                    como: grãos integrais, verduras, legumes e frutas.
+                        Evitar o consumo excessivo de alimentos ricos em carboidratos
+                    refinados , como farinha branca, doces e refrigerantes, frituras,
+                    sucos prontos e artificiais e jejuns prolongados e excesso de
+                    alimentação
+                        Evite o abuso de açúcares e gorduras saturadas (óleo,
+                    creme de leite, toucinho, azeite de dendê, carnes gordas
+                    e manteiga).
+                         Adoçantes à base de frutos, manitol (contribuem para
+                    complicações crônicas do diabetes)</p>
+                </div>
+                <img src="img/nutrição.png" alt="" >
+            </div>
+            
         </section>
 
-        <section class="topico">
-            <h2>Orientações nutricionais</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-            <img src="img/nutrição.png" alt="" >
-        </section>
-
-        <section class="topico">
-            <h2>Manual para aplicação de insulina</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-            <img src="img/manual (1).png" alt="" >
+        <section class="topico" id="manual">
+            <div id="definicao">
+                <div id="definicaoP">
+                    <h2>Manual para aplicação de insulina</h2>
+                    <h3>O que é?</h3>
+                    <p>A insulina é um hormônio responsável pela redução da glicemia(taxa de glicose no sangue), ao promover a entrada de glicose nas células. Esta é também essencial no metabolismo de sacarídeos(hidrato de carbono), na síntese de proteínas e no armazenamento de lipídeos (gorduras).
+                    </p>
+                    <h3>Qual a função da Insulina?</h3>
+                    <p>A insulina atua, principalmente, permitindo que as células captem a glicose presente no sangue para diminuir a quantidade dessa substância na corrente sanguínea.A glicose é utilizada pela célula para a produção de energia. Caso exista pouca produção de insulina em um organismo ou ela não atua demaneira adequada, os níveis de glicose aumentam no sangue, causando problemas sérios de saúde.
+                    </p>
+                    <h3>Como aplicar?</h3>
+                    <p>1.A insulina deve ser injetada no tecido subcutâneo, logo abaixo da pele. Nunca no músculo, pois irá alterar o tempo de absorção e poderá sentir dor. Mude os locais de aplicação para não formar nódulos irreversíveis. É muito importante você melhorar suas taxas de glicose.Use agulhas De 4mm que Dispensa Preca cutânea</p>
+                    <p>2.Passe álcool 70% com um movimento único no local escolhido para aplicação e espere secar ou lave com água e sabão; se a agulha for maior que 4mm, faça prega cutânea e aplique em ângulo de 90°. Inserir a agulha com movimento rápido e preciso.</p>
+                    <p>3.Empurrar o êmbolo (ou botão no caso de caneta) para injetar a insulina. Aguardar 5 segundos no caso de seringa e 10 segundos. no caso de canetas antes de retirar a agulha da pele e, em seguida, soltar a prega.</p>
+                </div>
+                
+            </div>
         </section>
     </main>
 
@@ -89,9 +163,8 @@
 
     <footer>
         <img src="" alt="" class="logo">
-        <p>Desenvolvido por Caroline Lima, Julia Talita e Ruan Mendes </p>
+        <p>Copyrigth  by &copy;<B> Caroline Lima, Julia Talita e Ruan Mendes</B> </p>
     </footer>
-
     <script src="dark.js"></script>
 </body>
 </html>
