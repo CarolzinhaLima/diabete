@@ -8,10 +8,18 @@
     --azul : #004A8D;
     --laranja-claro: #fdc180;
     --branco: #faf6f6;
+
+    --back-color: white;
+    --text-color: black;
 }
 
+.dark{
+    --back-color: black;
+    --text-color: white;
+}
 body{
-    background-color: var(--branco);
+    background-color: var(--back-color);
+    color: var(--text-color);
 }
 
 a{
